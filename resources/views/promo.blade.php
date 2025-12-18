@@ -264,40 +264,7 @@
         </nav>
            
     </nav>
-
-    <!-- Promo Slider Section -->
-    <section class="py-8 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center mb-6">
-                <div>
-                    <h2 class="text-2xl font-bold text-gray-900 mb-2">Promo Spesial</h2>
-                    <p class="text-gray-600">Diskon terbaik untuk produk pilihan</p>
-                </div>
-            </div>
-            
-            <div class="relative">
-                <!-- Navigation Buttons -->
-                <button onclick="scrollSlider('homePromoSlider', 'left')" class="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white rounded-full p-3 shadow-lg hover:shadow-xl transition-all -ml-2 md:-ml-4">
-                    <i class="fas fa-chevron-left text-gray-600 text-lg"></i>
-                </button>
-                <button onclick="scrollSlider('homePromoSlider', 'right')" class="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white rounded-full p-3 shadow-lg hover:shadow-xl transition-all -mr-2 md:-mr-4">
-                    <i class="fas fa-chevron-right text-gray-600 text-lg"></i>
-                </button>
                 
-                <!-- Loading State -->
-                <div id="homePromoLoading" class="flex justify-center items-center py-12">
-                    <div class="text-center">
-                        <div class="inline-block animate-spin rounded-full h-12 w-12 border-4 border-blue-500 border-t-transparent"></div>
-                        <p class="mt-4 text-gray-600">Memuat data promo...</p>
-                    </div>
-                </div>
-                
-                <!-- Promo Slider -->
-                <div id="homePromoSlider" class="flex gap-6 overflow-x-auto scrollbar-hide pb-4" style="scroll-behavior: smooth; -webkit-overflow-scrolling: touch;">
-                    <!-- Promo cards will be loaded dynamically from API -->
-                </div>
-            </div>
-        </div>
 
         <!-- Mobile menu -->
         <div id="mobileMenu" class="hidden md:hidden bg-white/95 backdrop-blur-md border-t border-gray-100 shadow-lg">
